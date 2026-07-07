@@ -43,6 +43,7 @@ def get_companies(city, keyword=""):
     {"company": "Hexaware Technologies", "address": "Noida, Uttar Pradesh", "rating": 4.2},
     {"company": "Birlasoft", "address": "Noida, Uttar Pradesh", "rating": 4.1},
 ]
+
     kw = keyword.strip().lower()
     filtered_companies = [
         c
